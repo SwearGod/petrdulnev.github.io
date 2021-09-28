@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  background-color: #F9ED69;
+  color: #B83B5E;
+}
+
+p{
+  margin: 25px 0;
+}
+
+h1{
+  font-size: 60px;
+}
+
+div{
+  width: 60%;
+  margin: auto;
+  padding: 50px;
+  background-color: #F08A5D;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.6);
+}
+
+a{
+  text-decoration: none;
+  color: #6A2C70;
+  display: block;
+  margin: 20px 0;
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s ease-in;
+}
+
+a:hover{
+  border-bottom-color: #F9ED69;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+
+}
